@@ -219,13 +219,14 @@
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
+  right: 10px;
   border-radius: 3px;
   float: right;
 }
 
 .prev{
   float: left;
+
 }
 /* On hover, add a pink background color with a little bit see-through */
 .prev:hover, .next:hover {
@@ -234,16 +235,17 @@
 
 
 
+
 .title {
   font-size: 11px;
-  margin-left: 60px;
+ 
 }
 
 .date{
   font-size: 11px;
   color:#b5838D ;
   margin-bottom: 10px;
-  margin-left: 60px;
+ 
 }
 /* FIN CARROUSEL */
 
@@ -256,12 +258,12 @@
     
   }
   
-.social-icons{
-display: flex;
-margin-left: 159px;
-
-
-}
+  .social-icons{
+  display: flex;
+  justify-content: center;
+  
+  
+  }
 
     }
     

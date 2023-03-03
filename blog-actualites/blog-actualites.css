@@ -195,7 +195,7 @@
 
 /* Slideshow container */
 .slideshow-container {
-  max-width: 890px;
+  max-width: 72%;
   position: relative;
   margin-top: 29px;
   margin-left:109px;
@@ -256,12 +256,12 @@
     
   }
   
-.social-icons{
-display: flex;
-margin-left: 159px;
-
-
-}
+  .social-icons{
+  display: flex;
+  justify-content: center;
+  
+  
+  }
 
     }
     
