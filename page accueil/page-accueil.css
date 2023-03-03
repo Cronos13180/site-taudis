@@ -1,0 +1,140 @@
+/* Image de fond pour les écrans étroits */
+@media (min-width:390px) and (max-width: 810px) {
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+
+nav ul {
+  list-style: none;
+}
+
+nav a {
+  text-decoration: none;
+}
+
+.lettreRose {
+  color: #b5838d;
+}
+
+.barreNav a {
+  color: #7c898b;
+
+}
+
+
+  body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: url(../images/backgroundMobile.png) no-repeat center center fixed;
+    background-size: cover;
+  }
+
+
+#logoTaudis {
+
+  width: 300px;
+  max-width: 250px;
+  text-align: center;
+}
+
+.Meteo {
+  width: 200px;
+  height: 50px
+}
+
+.btn-contact {
+  padding: 4px 8px;
+  margin: 10px;
+  border-radius: 12px;
+  background-color: #b5838d;
+  border: none;
+  color: #efefef;
+ font-weight: 600;
+
+}
+
+li {
+  padding: 8px;
+}
+
+header {
+  
+  justify-content: space-between;
+  padding-top: 16px;
+  margin-left: 8px;
+  margin-right: 8px;
+}
+
+.head{
+  display: flex;
+  justify-content: space-between;
+  
+}
+.logo {
+  display: flex;
+  justify-content: center;
+  padding-top: 32px;
+}
+
+
+nav {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
+
+.social-icons img {
+  width: 40px;
+  margin-bottom: 12px;
+  
+}
+.social-icons {
+  display: flex;
+  flex-direction: column;
+
+  margin-top: 94px;
+}
+
+.barreNav {
+  font-size: 24px;
+  text-align: center;
+  margin-top: 60px;
+  margin-right: 40px;
+  margin-left: 84px;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+#citation {
+  width: 50px;
+  position: absolute;
+  
+  
+}
+
+p {
+ text-align: center;
+  font-size: 14px;  
+  color: #7c898b;
+  margin-top: 10px;
+margin-left: 8px;
+}
+
+footer {
+  position: absolute;
+  bottom: 30px;
+  width: 100%;
+}
+
+   
+}
+  
+  
