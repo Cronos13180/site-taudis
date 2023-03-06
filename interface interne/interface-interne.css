@@ -189,7 +189,7 @@ nav ul {
     align-items: center;
 }
 
-input {
+#subject,#legende {
     border-right: none;
     border: 2px solid #b5838d; 
     border-radius: 25px;
@@ -210,9 +210,13 @@ input {
 }
 
 #content {
-    width: 100%;
+    width: 90%;
     height: 33vh;
     resize: none;
+    margin-top: 20px;
+    border: 2px solid #b5838d; 
+    border-radius: 15px;
+    padding: 10px;
 }
 
 /* FIN PLACEHOLDER */
