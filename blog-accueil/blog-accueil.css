@@ -76,7 +76,7 @@
   .burger-icon span {
     display: block;
     width: 35px;
-    height: 5px;
+    height: 4px;
     background-color: #7c898b;
     margin-top: 8px
   }
@@ -89,8 +89,8 @@
   
   /* LOGO */
   .logo-taudis img {
-    width: 209px;
-    height: 82px;
+    width: 47vmin;
+    height: 23vmin;
     margin: 15px;
   }
   
@@ -122,15 +122,15 @@
 
   h1 {
     text-align: center;
-    font-size: 26px;
+    font-size: 7vmin;
     }
 
-/* ceci est un test git */
+
 
     .intro-blog {
 
       text-align: justify;
-       font-size: 11px;  
+       font-size: 3vmin;  
        color: #7c898b;
        margin: 20px;
       
@@ -138,17 +138,17 @@
      }
      
      .first-line {
-      font-size: 10px;
+      font-size: 3vmin;
       font-weight: 600;
       text-align: center;
      }
      .second-line{
-      font-size:8px ;
+      font-size:2.5vmin ;
       text-align: center;
      }
 
      .third-line{
-      font-size:7px ;
+      font-size:2.5vmin ;
       font-weight: 600;
       text-align: center;
      }

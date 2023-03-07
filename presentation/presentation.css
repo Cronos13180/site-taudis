@@ -7,15 +7,11 @@
    font-family: 'Poppins';
     height: 100%;
     width: 100%;
-    background: url(../images/backgroundMobile.png) no-repeat center center fixed;
+    background: url(../images/backMobileSans.png) no-repeat center center fixed;
     background-size: cover;
      color: #7c898b;
   }
   
-
-
-
-
 
 /* BURGER MENU */
 
@@ -72,7 +68,7 @@ right: -36px;
 .burger-icon span {
   display: block;
   width: 35px;
-  height: 5px;
+  height: 4px;
   background-color: #7c898b;
   margin-top: 8px
 }
@@ -85,8 +81,8 @@ right: -36px;
 
 /* LOGO */
 .logo-taudis img {
-  width: 209px;
-  height: 82px;
+  width: 47vmin;
+  height: 23vmin;
   margin: 15px;
 }
 
@@ -118,12 +114,12 @@ header {
 
 h1 {
   text-align: center;
-  font-size: 26px;
+  font-size: 7vmin;
 
 }
 .presentation{
  
-    font-size: 12px;
+    font-size: 3vmin;
     margin-left: 10px ;
     margin-right: 30px;
   text-align: justify;
@@ -144,7 +140,7 @@ h1 {
   }
 
   .social-icons img {
-    width: 35px;
+    width: 8vmin;
     margin-bottom: 12px;    
       margin-top: 30px
       

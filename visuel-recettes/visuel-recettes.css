@@ -204,12 +204,12 @@ margin-top: 29px;
 
 
 .text {
-font-size: 11px;
+  font-size: 3vmin;
 margin-left: 10px;
 }
 
 .date{
-font-size: 11px;
+font-size: 2.5vmin;
 color:#b5838D ;
 margin-bottom: 10px;
 margin: 10px;
@@ -219,22 +219,23 @@ margin: 10px;
 /* FOOTER */
 
 .social-icons img {
-width: 35px;
-margin-bottom: 12px;    
-  margin-top: 30px
+  width: 8vmin;
+  margin-bottom: 12px;    
+    margin-top: 30px
+    
+  }
   
-}
-
 .social-icons{
 display: flex;
+text-align: center;
 justify-content: center;
-
 
 }
 
 .subject{
   font-weight: 600;
   margin: 10px;
+  font-size: 4vmin;;
 }
 
 .container {
@@ -245,8 +246,8 @@ justify-content: center;
 }
 
 #image-illustration {
-  width: 200px;
-  height: 150px;
+  width: 62vmin;
+  height: 47vmin;
 }
 
 

@@ -51,6 +51,7 @@
 
 .sidenav a:hover {
   color: #111;
+  
 }
  /* Active class */
   .sidenav.active {
@@ -71,7 +72,7 @@
   .burger-icon span {
     display: block;
     width: 35px;
-    height: 5px;
+    height: 4px;
     background-color: #7c898b;
     margin-top: 8px
     
@@ -85,8 +86,8 @@
   
   /* LOGO */
   .logo-taudis img {
-    width: 209px;
-    height: 82px;
+    width: 47vmin;
+    height: 23vmin;
     margin: 15px;
   }
   
@@ -117,7 +118,7 @@
   }
   h1 {
     text-align: center;
-    font-size: 26px;
+    font-size: 7vmin;
     }
 
 
@@ -138,14 +139,14 @@
       display: flex;        
       text-decoration: none;
       color: #7c898b;
-      font-size: 12px;
+      font-size: 3vmin;
       font-weight: 800;
       
     }
 
     .sous-menus a:hover, .sous-menus a:active, .sous-menus a:focus {
       color: #111;
-      font-size: 14px;
+      font-size: 3.5vmin
   }
   
  
@@ -204,12 +205,12 @@ margin-top: 29px;
 
 
 .text {
-font-size: 11px;
+font-size: 3vmin;;
 margin-left: 10px;
 }
 
 .date{
-font-size: 11px;
+font-size: 2.5vmin;
 color:#b5838D ;
 margin-bottom: 10px;
 margin: 10px;
@@ -219,22 +220,23 @@ margin: 10px;
 /* FOOTER */
 
 .social-icons img {
-width: 35px;
-margin-bottom: 12px;    
-  margin-top: 30px
+  width: 8vmin;
+  margin-bottom: 12px;    
+    margin-top: 30px
+    
+  }
   
-}
-
 .social-icons{
 display: flex;
+text-align: center;
 justify-content: center;
-
 
 }
 
 .subject{
   font-weight: 600;
   margin: 10px;
+  font-size: 4vmin;
 }
 
 .container {
@@ -245,8 +247,8 @@ justify-content: center;
 }
 
 #image-illustration {
-  width: 200px;
-  height: 150px;
+  width: 62vmin;
+  height: 47vmin;
 }
 
 
