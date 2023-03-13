@@ -1,4 +1,3 @@
-/* Image de fond pour les écrans étroits */
 @media (min-width:390px) and (max-width: 810px) {
 
     *{
@@ -252,24 +251,17 @@
 /* FOOTER */
 
 .social-icons img {
-  width: 35px;
+  width: 8vmin;
   margin-bottom: 12px;    
     margin-top: 30px
     
   }
   
-  .social-icons{
-  display: flex;
-  justify-content: center;
-  
-  
-  }
+.social-icons{
+display: flex;
+text-align: center;
+justify-content: center;
+
+}
 
     }
-    
-    
-    
-    
-    
- 
-  
