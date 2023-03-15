@@ -139,6 +139,10 @@ h1 {
   
   }
 
+  #join-us:hover{
+    transform: scale(1.2);
+  }
+
   .social-icons img {
     width: 8vmin;
     margin-bottom: 12px;    
@@ -151,5 +155,12 @@ display: flex;
 text-align: center;
 justify-content: center;
 
+  }
+  .social-icons a:hover img {
+    
+    transform: scale(1.2);
+  }
+  .btn-contact:hover {   
+    transform: scale(1.2);
   }
 }

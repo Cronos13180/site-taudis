@@ -44,14 +44,11 @@ nav a {
   text-align: center;
 }
 
-.Meteo {
-  width: 200px;
-  height: 50px
-}
+
 
 .btn-contact {
   padding: 4px 8px;
-  margin: 10px;
+  margin: 6vw;
   border-radius: 12px;
   background-color: #b5838d;
   border: none;
@@ -125,10 +122,9 @@ p {
  text-align: center;
   font-size: 3vmin;  
   color: #7c898b;
-  margin-top: 10px;
+ 
 margin-left: 8px;
-;
-}
+;}
 
 footer {
   position: absolute;
@@ -139,9 +135,67 @@ footer {
   
 }
 
+    /* API METEO */
+     
+  .first-line {
+      display: flex;
+  
+   justify-content: center;
+  }
+  
+  .second-line {
+      display: flex;
+     
+      
+     
+  }
+  #desc{
+      
+      font-size: 3vw;
+      margin-left: 10px;
+  }
+  
+  #icon{
+     
+     min-width: 40px;
+  
+     
+  }
+  #city{
+      font-size: 3vw;
+     
+  }
+  #temp{
+      font-size: 3vw;
+  }
+
+   h2{
+    align-self: center;
+    color: #7c898b;
+    
+   }
+
+  /* FIN API METEO */
+  
+
+  /* EFFET HOVER */
+  .btn-contact:hover {   
+    transform: scale(1.2);
+  }
+    .Nav:hover {
+    /* Ajoutez ici les styles que vous voulez appliquer lors du survol de l'élément */
+    color: #7c898b;
+  ;
+    font-weight: 900;
+  }
+  
+  .social-icons a:hover img {
+    
+    transform: scale(1.2);
+  }
+  
+  
+  
 
 
-   
 }
-  
-  

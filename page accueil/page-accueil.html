@@ -16,9 +16,23 @@
   <header>
       <div class="background">
       <div class="head">
+
+        <!-- API METEO-->
+        <div class="meteo">
+          <div class="first-line">
+              <h2 id="city"></h2>
+              <img id="icon" alt="Weather icon">
+          </div>
+          <div class="second-line">
+              <p id="temp"></p>
+              <p id="desc"></p>
+          </div>
+      </div>
+     
+
+      <!-- FIN API METEO -->
+
         
-        <img class="Meteo" src="../images/iconeMeteo.png" alt="icone">
-        <div class="just-for-fun"></div>
         <button class="btn-contact" href='mailto:madametaudis@gmail.com'>Contact </button>
       </div>  
       <div class =" logo">
@@ -40,10 +54,10 @@
       </ul>
 
       <div class="social-icons">
-        <a href="https://www.instagram.com"><img src="../images/iconInstagram.png" alt="icone Instagram"></a>
-        <a href="https://www.facebook.com"><img src="../images/iconFacebook.png" alt="icone Facebook"></a>
+        <a href="https://www.instagram.com/madametaudis/?hl=fr"><img src="../images/iconInstagram.png" alt="icone Instagram"></a>
+        <a href="https://www.facebook.com/bybonoma/?locale=fr_FR"><img src="../images/iconFacebook.png" alt="icone Facebook"></a>
         <a href="https://www.twitter.com"><img src="../images/iconTwitter.png" alt="icone Twitter"></a>
-        <a href="https://www.tiktok.com"><img src="../images/iconTikTok.png" alt="icone Tiktok"></a>
+        <a href="https://www.tiktok.com/@madame.taudis"><img src="../images/iconTikTok.png" alt="icone Tiktok"></a>
       </div>
 
 
@@ -52,10 +66,10 @@
 
     <footer>
       <img id="citation" src="../images/citationJour.png" alt="citation du jour">
-      <p>La ou il ya une volonté, il y a un chemin</p>
+      <p id="citation-text" >La ou il ya une volonté, il y a un chemin</p>
 
     </footer>
-
+    <script src="../meteo.js"></script>
 </body>
 
 
