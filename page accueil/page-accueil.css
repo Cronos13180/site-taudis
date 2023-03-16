@@ -26,15 +26,19 @@ nav a {
 }
 
 
-  body {
-    font-family: 'Poppins', sans-serif;
-    margin: 0;
-    padding: 0;
-    height: 100%;
-    width: 100%;
-    background: url(../images/backgroundMobile.png) no-repeat center center fixed;
-    background-size: cover;
-  }
+body {
+    
+  font-family: 'Poppins', sans-serif;
+  margin: 0;
+  padding: 0;
+  height: 100%;
+  width: 100%;
+  background: url(../images/backgroundMobile.png) no-repeat center center;
+  background-size: cover;
+  color: #7c898b;
+}
+
+  
 
 
 #logoTaudis {
@@ -48,7 +52,7 @@ nav a {
 
 .btn-contact {
   padding: 4px 8px;
-  margin: 6vw;
+  margin: 30px;
   border-radius: 12px;
   background-color: #b5838d;
   border: none;
@@ -65,7 +69,7 @@ header {
   
   justify-content: space-between;
   padding-top: 16px;
-  margin-left: 8px;
+  
   margin-right: 8px;
 }
 
@@ -127,13 +131,15 @@ margin-left: 8px;
 ;}
 
 footer {
-  position: absolute;
- 
-  width: 100%;
-  display:flex ;
-  flex-direction: column;
   
-}
+    position: static;
+    bottom: 0;
+    left: 0;
+    right: 0;
+  }
+  
+  
+
 
     /* API METEO */
      
@@ -145,6 +151,7 @@ footer {
   
   .second-line {
       display: flex;
+      margin-left: 15px;
      
       
      
@@ -162,7 +169,7 @@ footer {
      
   }
   #city{
-      font-size: 3vw;
+      font-size: 4vw;
      
   }
   #temp{
@@ -172,6 +179,8 @@ footer {
    h2{
     align-self: center;
     color: #7c898b;
+    margin-left: 15px;
+    
     
    }
 
@@ -180,7 +189,7 @@ footer {
 
   /* EFFET HOVER */
   .btn-contact:hover {   
-    transform: scale(1.2);
+ transform: scale(1.2);
   }
     .Nav:hover {
     /* Ajoutez ici les styles que vous voulez appliquer lors du survol de l'élément */
@@ -194,8 +203,23 @@ footer {
     transform: scale(1.2);
   }
   
+  .horoscope-simple span {
+    display: inline;
+    color: #7c898b;
+    font-size: 3vw;
+  }
   
-  
+h3{
+  color: #b5838d;
+  font-size: 4vw;
+  margin-top: 10px;
+}
 
+.horoscope-simple{
+  margin-left: 15px;
+}
 
+#citation-text{
+  margin-left: 50px;
+}
 }
