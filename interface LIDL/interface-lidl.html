@@ -8,10 +8,10 @@
 
 
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">
-    <link rel="stylesheet" href="interface-externe.css">
+    <link rel="stylesheet" href="interface-lidl.css">
 
 
-    <title>Interface externe</title>
+    <title>Interface LIDL</title>
 </head>
 
 
@@ -63,58 +63,56 @@
                     </header>
 <!-- END INTERFACE LOGIN -->
 
-<h1>I<span class="lettreRose">n</span>terface E<span class="lettreRose">x</span>terne</h1>
-<p id="info">Pour publier tout ce qui vient de l'exterieur (catalogues,vidéos etc)</p>
-
-<div class="first-line">
-    <input type="text" placeholder="Titre: " id="titre">
-    <label>
-        <input type="checkbox" name="partenariat" value="remunere" class="partenariat">
-        <p > partenariat rémunéré</p>
-      </label>
-</div>
+<h1>I<span class="lettreRose">n</span>terface L<span class="lettreRose">i</span>dl</h1>
+<p id="info">Pour publier tout ce qui est dans la catégorie LIDL</p>
 
 
-<div class="liens">
-    <input type="text" placeholder="Lien vers le catalogue lidl " id="lidl">
-    <button class="publish" href=#'>Publier</button>
+</main>
+<nav>
+    <ul class="sous-menus">
+        <li><a class="Nav" href="#">C<span class="lettreRose">A</span>TALOGUES</a></li>
+        <li><a class="Nav" href="#">I<span class="lettreRose">N</span>TERVIEWS</a></li>
+        <li><a class="Nav" href="#">P<span class="lettreRose">R</span>ODUITS FAV</a></li>
+        <li><a class="Nav" href="#">C<span class="lettreRose">R</span>ASHS TESTS</a></li>
+    </ul>
+</nav>
 
-    <input type="text" placeholder="Lien vers interview sur YT " id="Youtube">
-    <button class="publish" href=#'>Publier</button>
-    
-    <input type="text" placeholder="" id="lidl">
-    <button class="publish" href=#'>Publier</button>
-
-    <input type="text" placeholder="Lien vers le catalogue lidl " id="lidl">
-    <button class="publish" href=#'>Publier</button>
-
-
-
-
+<div class="publication">
+    <input type="text" placeholder="Sujet: " id="subject">
+    <input type="text" placeholder="Légende:" id="legende">
+   
+    <textarea name="" id="content" cols="30" rows="10"></textarea>
 
 </div>
 
+<div class="img-insert">
+<p>Photo, Vidéo, Pdf du catalogue à insérer</p>
+<button class="parcourir" href=#>Parcourir </button>
+</div>
 
+<div class="img-insert">
+<label>
+    <input type="checkbox" name="partenariat" value="remunere" class="partenariat">
+    <p > partenariat rémunéré</p>
+  </label>
+  
+<button class="publish" href=#'>Publier</button>
+</div>
 
-
-
-
-
+</main>
 
 
 <footer>
 
-    <div class="social-icons">
-        <a href="https://www.instagram.com"><img src="../images/iconInstagram.png" alt="icone Instagram"></a>
-        <a href="https://www.facebook.com"><img src="../images/iconFacebook.png" alt="icone Facebook"></a>
-        <a href="https://www.twitter.com"><img src="../images/iconTwitter.png" alt="icone Twitter"></a>
-        <a href="https://www.tiktok.com"><img src="../images/iconTikTok.png" alt="icone Tiktok"></a>
-      </div>
-  
+<div class="social-icons">
+    <a href="https://www.instagram.com"><img src="../images/iconInstagram.png" alt="icone Instagram"></a>
+    <a href="https://www.facebook.com"><img src="../images/iconFacebook.png" alt="icone Facebook"></a>
+    <a href="https://www.twitter.com"><img src="../images/iconTwitter.png" alt="icone Twitter"></a>
+    <a href="https://www.tiktok.com"><img src="../images/iconTikTok.png" alt="icone Tiktok"></a>
+  </div>
 
+</div>
 
-
-</footer>
 
     <script src="../side-nav.js"></script>
 </body>

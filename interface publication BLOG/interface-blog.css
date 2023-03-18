@@ -133,7 +133,7 @@
         font-weight: 800;
     }
        p{
-        margin-left: 10px;
+       
         font-size: 3.3vmin;
        }
 
@@ -299,5 +299,6 @@ nav ul {
       transform: scale(1.2);
     }
 
+    
 
 }
