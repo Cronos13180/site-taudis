@@ -1,62 +1,62 @@
 /* Image de fond pour les écrans étroits */
 @media (min-width:390px) and (max-width: 810px) {
 
-    *{
-      margin: 0;
-      padding: 0;
-    }
+  *{
+    margin: 0;
+    padding: 0;
+  }
+
+  body {
   
-    body {
-    
-      font-family: 'Poppins', sans-serif;
-      margin: 0;
-      padding: 0;
-      height: 100%;
-      width: 100%;
-      background: url(../images/backMobileSans.png) no-repeat center center;
-      background-size: cover;
-      color: #7c898b;
-    }
-
-
-         /* BURGER MENU */
-    
-    .sidenav {
-      height: 280px;
-      width: 175px;
-      position: fixed;
-      border-radius: 20px 20px 20px 20px;
-      z-index: 1;
-      top: 0;
-      left: -250px;
-      background-color: #e8e8e8;
-      padding-top: 50px;
-      transition: left 0.5s ease;
-      text-align: center;
-      opacity: 0.9;
-    }
-    
-    .sidenav ul {
-      list-style-type: none;
-      padding: 0;
-      margin: 0;
-    }
-    
-   /* Sidenav menu links */
-   .sidenav a {
-    padding: 19px 54px 10px 32px;
-    text-decoration: none;
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    height: 100%;
+    width: 100%;
+    background: url(../images/backMobileSans.png )no-repeat center center;
+    background-size: cover;
     color: #7c898b;
-    display: block;
-    transition: 0.3s;
-    font-weight: 600;
+  }
+
+
+       /* BURGER MENU */
+  
+  .sidenav {
+    height: 280px;
+    width: 175px;
+    position: fixed;
+    border-radius: 20px 20px 20px 20px;
+    z-index: 1;
+    top: 0;
+    left: -250px;
+    background-color: #e8e8e8;
+    padding-top: 50px;
+    transition: left 0.5s ease;
+    text-align: center;
+    opacity: 0.9;
   }
   
-  .sidenav a:hover {
-    color: #111;
-    font-size: 3.5vmin;
+  .sidenav ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
   }
-  /* Active class */
+  
+ /* Sidenav menu links */
+ .sidenav a {
+  padding: 19px 54px 10px 32px;
+  text-decoration: none;
+  color: #7c898b;
+  display: block;
+  transition: 0.3s;
+  font-weight: 600;
+}
+
+.sidenav a:hover {
+  color: #111;
+  
+}
+ /* Active class */
   .sidenav.active {
     left: 0;
     width: 100%;
@@ -71,90 +71,90 @@
     font-size: 36px;
    
   }
-    
-    .burger-icon span {
-      display: block;
-      width: 35px;
-      height: 4px;
-      background-color: #7c898b;
-      margin-top: 8px
-      
-    }
- 
-    .lettreRose {
-      color: #b5838d;
-    }
-    
-    /* FIN BURGER MENU */
-    
-    /* LOGO */
-    .logo-taudis img {
-      width: 47vmin;
-      height: 23vmin;
-      margin: 15px;
-    }
-    
-    /* BUTTON */
-    .btn-contact {
-     
-      padding: 8px;
-      border-radius: 12px;
-      background-color: #b5838d;
-      border: none;
-      color: #efefef;
-      text-align: center;
-      display: inline-block;
-      font-size: 12px;
-      margin: 38px 3px;
-      margin-right: 30px;
-      font-weight: 600;
-    
-    }
-    /* FIN BUTTON */
-    
-    header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
-      
   
-    }
-    h1 {
-      text-align: center;
-      font-size: 7vmin;
-      }
-
-
-           /*DEBUT  BARRE NAV SOUS MENUS */
-
-      nav ul {
-        margin: 0;
-        padding: 0;
-        list-style: none;
-        display: flex;
-        justify-content: space-around;
-        margin-top: 25px;
-        margin-right: 27px;
-        
-      }
-
-      nav li a {
-        display: flex;        
-        text-decoration: none;
-        color: #7c898b;
-        font-size: 3vmin;
-        font-weight: 800;
-        
-      }
-
-      .sous-menus a:hover, .sous-menus a:active, .sous-menus a:focus {
-        color: #111;
-        
-    }
+  .burger-icon span {
+    display: block;
+    width: 35px;
+    height: 4px;
+    background-color: #7c898b;
+    margin-top: 8px
     
+  }
+
+  .lettreRose {
+    color: #b5838d;
+  }
+  
+  /* FIN BURGER MENU */
+  
+  /* LOGO */
+  .logo-taudis img {
+    width: 47vmin;
+    height: 23vmin;
+    margin: 15px;
+  }
+  
+  /* BUTTON */
+  .btn-contact {
    
+    padding: 8px;
+    border-radius: 12px;
+    background-color: #b5838d;
+    border: none;
+    color: #efefef;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    margin: 38px 3px;
+    margin-right: 30px;
+    font-weight: 600;
+  
+  }
+  /* FIN BUTTON */
+  
+  header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
     
-   /* FIN BARRE NAV*/
+
+  }
+  h1 {
+    text-align: center;
+    font-size: 7vmin;
+    }
+
+
+         /*DEBUT  BARRE NAV SOUS MENUS */
+
+    nav ul {
+      margin: 0;
+      padding: 0;
+      list-style: none;
+      display: flex;
+      justify-content: space-around;
+      margin-top: 25px;
+      margin-right: 27px;
+      
+    }
+
+    nav li a {
+      display: flex;        
+      text-decoration: none;
+      color: #7c898b;
+      font-size: 3vmin;
+      font-weight: 800;
+      
+    }
+
+    .sous-menus a:hover, .sous-menus a:active, .sous-menus a:focus {
+      color: #111;
+      font-size: 3.5vmin
+  }
+  
+ 
+  
+ /* FIN BARRE NAV*/
 
 
 /* DEBUT CARROUSEL */
@@ -208,7 +208,7 @@ margin-top: 29px;
 
 
 .text {
-font-size: 3vmin;
+font-size: 3vmin;;
 margin-left: 10px;
 }
 
@@ -221,6 +221,7 @@ margin: 10px;
 /* FIN CARROUSEL */
 
 /* FOOTER */
+
 .social-icons img {
   width: 8vmin;
   margin-bottom: 12px;    
@@ -235,13 +236,25 @@ justify-content: center;
 
 }
 
-
 .subject{
   font-weight: 600;
   margin: 10px;
   font-size: 4vmin;
-  margin-left: 10px;
 }
 
+.container {
+  display: flex;
+  justify-content: center;
+  margin-top: 50px;
+
+}
+
+
+.social-icons a:hover img {
+  
+  transform: scale(1.2);
+}
+.btn-contact:hover {   
+  transform: scale(1.2);
+}
     }
-    

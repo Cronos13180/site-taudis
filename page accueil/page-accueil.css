@@ -146,12 +146,12 @@ footer {
   .first-line {
       display: flex;
   
-   justify-content: center;
+   
   }
   
   .second-line {
       display: flex;
-      margin-left: 15px;
+      margin-left: 7px;
      
       
      

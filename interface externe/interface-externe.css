@@ -132,10 +132,7 @@
         font-size: 3vmin;
         font-weight: 800;
     }
-       p{
-        margin-left: 10px;
-        font-size: 3.3vmin;
-       }
+      
 
        a{
         text-decoration: none;
@@ -160,119 +157,42 @@ h1{
     text-align: center;
 }
 
-/* Debut barre nav */
-
-nav ul {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    display: flex;
-    justify-content: space-around;
-    margin-top: 25px;
-    margin-right: 27px;
-    
-  }
-
-  nav li a {
-    display: flex;        
-    text-decoration: none;
-    color: #7c898b;
-    font-size: 12px;
-    font-weight: 800;
-    
-  }
-
-  .sous-menus a:hover, .sous-menus a:active, .sous-menus a:focus {
-    color: #111;
-    font-size: 3.5vmin;
+#info{
+  text-align: center;
 }
-.sous-menus a{
-  font-size: 3vmin;
+.first-line{
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-top: 15px;
 }
 
-/* FIN BARRE NAV */
-
-/* DEBUT PLACEHOLDER */
-
-.publication {
-    margin-top: 20px;
-    display: flex;
-    flex-direction: column;
-    align-items: center;
+.partenariat{
+  margin: 3px;
 }
 
-#subject,#legende {
-    border-right: none;
-    border: 2px solid #b5838d; 
-    border-radius: 25px;
-    opacity: 0.8;
-    margin-top: 15px;
-    text-align: left;
-    padding: 10px;
-    box-sizing: border-box;
-}
-
-#legende {
-    margin-top: 15px;
-    width: 100%;
-    font-size: 3vmin;
-}
-
-#subject {
-    width: 100%;
-    font-size: 3vmin;
-}
-
-#content {
-    width: 90%;
-    height: 33vh;
-    resize: none;
-    margin-top: 20px;
-    border: 2px solid #b5838d; 
-    border-radius: 15px;
-    padding: 10px;
-}
-
-/* FIN PLACEHOLDER */
-
-.parcourir {
-     
-    padding: 8px;
-    border-radius: 12px;
-    background-color: #7c898b;
-    border: none;
-    color: #efefef;
-    text-align: center;        
-    font-weight: 600;
-    margin-left: 32px;
+label{
+  display: flex;
+  justify-content: space-between;
   
-  }
-.publish {
-     
-    padding: 8px;
-    border-radius: 12px;
-    background-color: #7c898b;
-    border: none;
-    color: #efefef;
-    text-align: center;        
-    font-weight: 800;
-    margin-left: 48px;
-  
-  }
+}
 
-  .img-insert{
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-top: 15px;
-  }
- 
-  label{
-    font-size: 12px;
-    color: #b5838d;
-    display: flex;
-    
-  }
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 /* FOOTER */
@@ -295,9 +215,4 @@ nav ul {
     
       transform: scale(1.2);
     }
-    .btn-contact:hover {   
-      transform: scale(1.2);
-    }
-
-
-}
+  }
