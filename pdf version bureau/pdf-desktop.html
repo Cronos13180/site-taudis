@@ -1,0 +1,28 @@
+<div class="container">
+    <div class="catalogue">
+        <embed src="../images/Catalogue-de-la-semaine-Du-22-03-au-28-03-03.pdf" type="application/pdf" width="100%" height="600px">
+        <p class="date" id="date1"></p>
+    </div>
+    <div class="catalogue">
+        <embed src="../images/Catalogue-jardinage-Du-16-03-au-27-03-02.pdf" type="application/pdf" width="100%" height="600px">
+        <p class="date" id="date2"></p>
+    </div>
+</div>
+
+
+
+
+.container {
+    display: flex;
+    flex-direction: column ;
+    justify-content: space-around;
+    /* margin: 20px; */
+}
+
+.catalogue {
+    width: 100%;
+    background-color: #ffffff;
+    border-radius: 5px;
+    padding: 20px;
+    box-shadow: 0 0 5px rgba(0, 0, 0, 0.1);
+}
