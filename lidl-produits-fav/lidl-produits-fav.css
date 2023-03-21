@@ -240,10 +240,8 @@
   .prev:hover, .next:hover {
     background-color: #b5838d ;
   }
-
-/* UTILISATION DE GRID POUR DISPO */
-
-.container {
+ 
+  .container {
     display: flex;   
     justify-content: space-around; 
 }
@@ -256,12 +254,12 @@
     align-items: center;
 }
 
-.record {
+.heart {
     width: 15%;
     
 }
 
-.record img {
+.heart img {
     max-width: 100%;
 
 }
@@ -272,15 +270,25 @@
     text-align: center;
 }
 
-.miniature-Yt {
+.miniature-Img {
     width: 30%;
 }
 
-.miniature-Yt iframe {
-    width: 100%;
+.miniature-Img img {
+    width: 80%;
     height: auto;
-    aspect-ratio: 16 / 9;
+    
+  
 }
+
+
+
+
+
+
+
+
+
 
 
 
