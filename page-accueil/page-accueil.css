@@ -82,7 +82,7 @@ header {
 .logo {
   display: flex;
   justify-content: center;
-  padding-top: 32px;
+  
 }
 
 
@@ -219,6 +219,11 @@ h3{
 .horoscope-simple{
   margin-left: 15px;
 }
+
+.horoscope-container {
+  min-height: 24vmin
+}
+
 
 #citation-text{
   margin-left: 50px;
