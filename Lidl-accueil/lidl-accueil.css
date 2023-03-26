@@ -160,6 +160,11 @@
     margin-bottom: 10px
     
        }
+
+       .first-line, .second-line, .third-line, a{
+        text-decoration: none;
+        color: inherit;
+       }
   
        .sous-categorie {
         display: flex;

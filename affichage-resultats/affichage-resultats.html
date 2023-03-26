@@ -9,10 +9,10 @@
     
     <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Poppins">    
     
-    <link rel="stylesheet" href="catalogues.css">
+    <link rel="stylesheet" href="affichage-resultats.css">
    
     
-    <title>Lidl-Catalogues</title>
+    <title>Résultats</title>
 </head>
 
 
@@ -49,7 +49,7 @@
           <a class="btn-contact" href="mailto:madametaudis@gmail.com">Contact</a>
 
     </header>
-    <h1>L<span class="lettreRose">I</span>DL - Catalogues</h1>
+    <h1>R<span class="lettreRose">E</span>SULTATS</h1>
 
  
 
@@ -68,24 +68,35 @@
 
 <!-- FIN BARRE NAV -->
 
-<div class="container">
-    <div class="catalogue">
-        <canvas data-pdf-src="../images/Catalogue-de-la-semaine-Du-22-03-au-28-03-03.pdf"></canvas>
-        
-    </div>
-    <div class="catalogue">
-        <canvas data-pdf-src="../images/Catalogue-jardinage-Du-16-03-au-27-03-02.pdf"></canvas>
-        
-    </div>
-</div>
+ 
+
+
+<!-- SEARCH BARRE -->
+<form id="search-form">
+  <div class="search-bar">
+    <input type="text" id="search-input" placeholder="Tape ici les mots clés ">
+    <button type="submit" id="search-submit"><img id="loupe" src="../images/loupe.png" alt="Loupe barre recherche"></button>
+  </div>
+</form>
+
+<div id="no-results" style="display: none;">Désolé, il n'y a aucun résultat correspondant à votre recherche</div>
+<!-- FIN SEARCH BARRE -->
 
 
 
 
 
-   
-  <!-- FOOTER SOCIAL MEDI1A-->
-  <footer>
+<!-- RESULT CONTAINER -->
+<div id="result-container"></div>
+<!-- END RESULT CONTAINER -->
+
+
+
+
+
+
+<!-- FOOTER SOCIAL MEDI1A-->
+<footer>
     <div class="social-icons">
       <a href="https://www.instagram.com/madametaudis/?hl=fr"><img src="../images/iconInstagram.png" alt="icone Instagram"></a>
       <a href="https://www.facebook.com/bybonoma/?locale=fr_FR"><img src="../images/iconFacebook.png" alt="icone Facebook"></a>
@@ -98,11 +109,9 @@
  
     
     <script src="../side-nav.js"></script>
-    <script src="catalogues.js"></script>
-    <script src="build/pdf.js"></script>
+
+    <script src="../search-bar-it.js"></script>
+    
     
 </body>
-  
-  
-
 </html>

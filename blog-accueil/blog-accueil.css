@@ -149,6 +149,7 @@
       font-size: 3vmin;
       font-weight: 600;
       text-align: center;
+      
      }
      .second-line{
       font-size:2.5vmin ;
@@ -161,6 +162,11 @@
       text-align: center;
      }
 
+     .first-line, .second-line, .third-line, a{
+      text-decoration: none;
+      color: inherit;
+     }
+     
   .db-border  {
     border: thick double #7c898b;
     width: 40%;
