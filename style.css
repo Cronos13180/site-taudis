@@ -1,4 +1,4 @@
-@media (min-width:390px) and (max-width: 810px) {
+@media (min-width:350px) and (max-width: 1900px) {
 
     *{
       margin: 0;
@@ -76,15 +76,21 @@
    
   }
     
-    .burger-icon span {
-      display: block;
-      width: 35px;
-      height: 4px;
-      background-color: #7c898b;
-      margin-top: 8px
-      
-    }
- 
+  .burger-icon {
+    position: absolute;
+    top: 11%;
+    left: calc(30px + 1vw); /* Ajoutez 1% de la largeur de la fenêtre à la valeur left */
+  }
+  
+  
+  .burger-icon span {
+    display: block;
+    width: 35px;
+    height: 4px;
+    background-color: #7c898b;
+    margin-top: 8px;
+  }
+  
     .lettreRose {
       color: #b5838d;
     }
@@ -93,41 +99,48 @@
     
     /* LOGO */
     .logo-taudis img {
-      width: 47vmin;
-      height: 23vmin;
-      margin: 15px;
+      width: 38vmin;
+      height: 17vmin;
+  margin-top: 41%;
     }
     
-    /* BUTTON */
-    .btn-contact {
-     
-      padding: 8px;
-      border-radius: 12px;
-      background-color: #b5838d;
-      border: none;
-      color: #efefef;
-      text-align: center;
-      display: inline-block;
-      font-size: 12px;
-      margin: 38px 3px;
-      margin-right: 30px;
-      font-weight: 600;
-      text-decoration: none;
     
-    }
+  /* BUTTON */
+  .btn-contact {
+    padding: 8px;
+    border-radius: 12px;
+    background-color: #b5838d;
+    border: none;
+    color: #efefef;
+    text-align: center;
+    display: inline-block;
+    font-size: 12px;
+    margin: 0;
+    font-weight: 600;
+    text-decoration: none;
+    position: absolute;
+    top: 11%; /* Pour centrer verticalement */
+    right: 30px;
+    
+  }
+  
     /* FIN BUTTON */
     
     header {
-      display: flex;
-      justify-content: space-between;
-      align-items: center;
+      display: grid;
+      place-items: center;
+    }
+    
       
   
-    }
+    
     h1 {
       text-align: center;
       font-size: 7vmin;
-      }
+      width: 100%;
+      margin-top: 5vmin;
+    
+    }
 
 
       /* Search BARRE */
@@ -200,25 +213,26 @@
 
 
 /* DEBUT CARROUSEL */
-
-* {box-sizing:border-box}
+* {
+  box-sizing: border-box;
+}
 
 /* Slideshow container */
 .slideshow-container {
   max-width: 72%;
   position: relative;
-  margin-top: 29px;
-  margin-left:109px;
+  margin: 29px auto 29px 30%;
+
+
 }
 
-
 /* Next & previous buttons */
-.prev, .next {
+.prev,
+.next {
   cursor: pointer;
-  position: relative;
+  position: absolute; /* Ajout de la propriété position pour utiliser les propriétés 'left' et 'right' */
   top: 50%;
   width: auto;
- 
   padding: 5px;
   color: white;
   font-weight: bold;
@@ -230,33 +244,56 @@
 
 /* Position the "next button" to the right */
 .next {
-  right: 0;
+  right: 0; /* Modification de la propriété right à 0 pour centrer le bouton suivant */
+  transform: translateY(-50%); /* Ajout de la propriété transform pour centrer le bouton suivant verticalement */
   border-radius: 3px;
-  float: right;
 }
 
-.prev{
-  float: left;
+.prev {
+  left: 0; /* Modification de la propriété left à 0 pour centrer le bouton précédent */
+  transform: translateY(-50%); /* Ajout de la propriété transform pour centrer le bouton précédent verticalement */
+  border-radius: 3px;
 }
+
 /* On hover, add a pink background color with a little bit see-through */
-.prev:hover, .next:hover {
-  background-color: #b5838d ;
+.prev:hover,
+.next:hover {
+  background-color: #b5838d;
 }
 
-
-
+/* Titre et date */
 .title {
   font-size: 3.5vmin;
   margin-left: 18%;
 }
 
-.date{
+.date {
   font-size: 2.5vmin;
-  color:#b5838D ;
+  color: #b5838D;
   margin-bottom: 10px;
   margin-left: 18%;
 }
-/* FIN CARROUSEL */
+
+/* Slides */
+.mySlides {
+  display: none;
+}
+
+/* Animations */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+
+
+
+
+
+
+
 
 /* FOOTER */
 
@@ -282,3 +319,5 @@ justify-content: center;
   transform: scale(1.2);
 }
     }
+
+

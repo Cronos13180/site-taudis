@@ -74,11 +74,15 @@
 
     <!-- SEARCH BARRE -->
 
+  <!-- SEARCH BARRE -->
+<form id="search-form">
     <div class="search-bar">
-        <input type="text" placeholder="Tape ici les mots clés ">
-        <button type="submit"><img id="loupe" src="../images/loupe.png" alt="Loupe barre recherche"></button>
-
+      <input type="text" id="search-input" placeholder="Tape ici les mots clés ">
+      <button type="submit" id="search-submit"><img id="loupe" src="../images/loupe.png" alt="Loupe barre recherche"></button>
     </div>
+  </form>
+  <div id="no-results" style="display: none;">Désolé, il n'y a aucun résultat correspondant à votre recherche</div>
+  <!-- FIN SEARCH BARRE -->
 
     <!-- FIN SEARCH BARRE -->
 
@@ -353,6 +357,7 @@
 
     <script src="../side-nav.js"></script>
     <script src="../carrousel.js"></script>
+    <script src="../search-bar-product.js"></script>
 
 
 </body>

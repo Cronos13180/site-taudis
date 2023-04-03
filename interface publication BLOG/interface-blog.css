@@ -1,5 +1,5 @@
 /* Image de fond pour les écrans étroits */
-@media (min-width:390px) and (max-width: 810px) {
+@media (min-width:300px) and (max-width: 1900px) {
 
     *{
       margin: 0;

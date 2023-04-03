@@ -1,5 +1,5 @@
 /* Image de fond pour les écrans étroits */
-@media (min-width:390px) and (max-width: 810px) {
+@media (min-width:300px) and (max-width: 1900px) {
 
 * {
   margin: 0;
@@ -50,16 +50,23 @@ body {
 
 
 
-.btn-contact {
-  padding: 4px 8px;
-  margin: 30px;
+ /* BUTTON */
+ .btn-contact {
+  padding: 8px;
   border-radius: 12px;
   background-color: #b5838d;
   border: none;
   color: #efefef;
- font-weight: 600;
- text-decoration: none;
-
+  text-align: center;
+  display: inline-block;
+  font-size: 12px;
+  margin: 0;
+  font-weight: 600;
+  text-decoration: none;
+  position: absolute;
+  top: 4%; /* Pour centrer verticalement */
+  right: 30px;
+  
 }
 
 li {
